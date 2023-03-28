@@ -823,7 +823,7 @@ def main():
         col4.write("**Silvia Maysiska Saragih**")
         col4.write("**Universitas Widya Husada**")
         
-        col5.image(img_eldaa, width=216)
+        col5.image(img_elda, width=200)
         col5.write("**Eldaa Florenti Ginting**")
         col5.write("**Universitas Widya Husada**")
         
