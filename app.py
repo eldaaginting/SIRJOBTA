@@ -111,6 +111,7 @@ def main():
         * Kemudian CV dan lowongan kerja akan dibandingkan dengan berbagai metode untuk menemukan kesamaan. 
         * Terakhir, sistem akan mencantumkan rekomendasi pekerjaan.
         
+        
         **Untuk mencari lowongan kerja berdasarkan Search Jobs :** 
         * Pertama, Pilih menu Search job&talent 
         * Masukkan Job Tittle yang mau dicari
@@ -130,18 +131,30 @@ def main():
         st.write(df)  # visualize my dataframe in the Streamlit app
         
         st.markdown("""
+        
         **Kolom berikut menjelaskan data sebagai berikut.**
+        
         *   Index: Indeks setiap baris (self-ecplanatory) mulai dari 0
+        
         *   Job Type: Tipe dari pekerjaan yang dibutuhkan(Fulltime, Contract, Intership, dll)
+        
         *   Job Experience: Total pengalaman yang dibutuhkan
         *   Position: Posisi dari pekerjaan yang dibutuhkan
+        
         *   Vacancy Count: Jumlah lowongan yang dibutuhkan
+        
         *   Company: Nama perusahaan yang membuka lowongan
+        
         *   Location: Lokasi perusahaan yang membuka lowongan
+        
         *   Industries: Industri dari perusahaan yang membuka lowongan
+        
         *   Job Title: Judul pekerjaan yang sedang dibuka lowongan
+        
         *   Job Requirement: Persyaratan yang dibutuhkan dari masing-masing pekerjaan
+        
         *   Job Salary: Rentang salary dari masing-masing pekerjaan
+        
         *   Skills: Skill/Keahlian yang dibutuhkan dari masing-masing pekerjaan
         *   Career Level: Career level dari pekerjaan yang dibutuhkan
         *   Salary Min: Minimum salary
@@ -361,6 +374,8 @@ def main():
         df1 = df1.loc[df1['Job Title'] == title]
         st.markdown("""------------------------------------------------------------------------------------------------""")
         st.markdown("""
+        
+        
         """)
         st.header('Hiring Trends For ' + title + ' role in ' + location + ':')
         
@@ -808,7 +823,7 @@ def main():
         col4.write("**Silvia Maysiska Saragih**")
         col4.write("**Universitas Widya Husada**")
         
-        col5.image(img_eldaa, width=200)
+        col5.image(img_eldaa, width=216)
         col5.write("**Eldaa Florenti Ginting**")
         col5.write("**Universitas Widya Husada**")
         
