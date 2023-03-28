@@ -64,7 +64,7 @@ def main():
                     "icon": {"color": "orange", "font-size": "25px"},
                     "nav-link": {
                         "font-size": "13px",
-                        "text-align": "left",
+                        "text-align": "center",
                         "margin": "0px",
                         "--hover-color": "#eee",
                     },
@@ -684,10 +684,10 @@ def main():
                 df_skills['Skills'] = df_skills['Skills'].apply(lambda x: ' '.join(x))
 
                 # Tambahkan kata-kata yang sering muncul dalam deskripsi tetapi tidak membawa nilai ke daftar kata stopwords
-                extra_stopword = ['data','experience','work','team','will','skill','year','skills']
+                extra_stopword = ['data','experience','work','team','will','skill','year','skills', 'medium']
                 stop_words = text.ENGLISH_STOP_WORDS.union(extra_stopword)
                 
-                st.write("**JOB SKILLS OF RECOMMENDATION JOBS**")
+                st.write("**SKILLS OF THE RECOMMENDED JOBS**")
 
                 wc = WordCloud(stopwords=stop_words, background_color="white", colormap="Dark2",
                             random_state=42, collocations = False)
@@ -710,7 +710,7 @@ def main():
             def make_clickable(link):
                 # Target _blank to open new window
                 # Extract clickable text to display for your link
-                text = 'Apply Link'
+                text = 'Click here'
                 return f'<a target="_blank" href="{link}">{text}</a>'
 
             with db_expander:
@@ -800,15 +800,15 @@ def main():
         col2.write("**Justine**")
         col2.write("**Universitas Mikroskil**")
         
-        col3.image(img_anjana, width=216)
+        col3.image(img_anjana, width=200)
         col3.write("**Anjanah Diah Andriani**")
         col3.write("**Universitas Widya Husada**")
         
-        col4.image(img_silvi, width=216)
+        col4.image(img_silvi, width=200)
         col4.write("**Silvia Maysiska Saragih**")
         col4.write("**Universitas Widya Husada**")
         
-        col5.image(img_elda, width=216)
+        col5.image(img_elda, width=200)
         col5.write("**Eldaa Florenti Ginting**")
         col5.write("**Universitas Widya Husada**")
         
