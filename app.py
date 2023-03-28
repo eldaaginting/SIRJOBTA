@@ -51,10 +51,10 @@ st.set_page_config(
 
 # Search Recommendation Job&Talent  
 def main():
-    #harozontal menu
+    #horizontal menu
     selected = option_menu(
         menu_title="SIRJOBTA",
-        options=["Home",  "Exploration Job&Talent", "Recommendation Job&Talent", "Search jobs", "Devolep"],
+        options=["Home",  "Exploration Job&Talent", "Recommendation Job&Talent", "Search jobs", "Developer"],
         icons=["house",  "bar-chart-line", "hand-thumbs-up", "search", "people-fill"],
         menu_icon="globe",
         default_index=0,
@@ -93,7 +93,7 @@ def main():
         st.image(imgm3, width=1000)
         st.markdown("""------------------------------------------------------------------------------------------------""")
         
-        # Sreaping
+        # Scraping
         imgm4 = Image.open("data/m4.png")
         st.image(imgm4, width=1000)
         
@@ -777,8 +777,8 @@ def main():
                        
 
         
-    #Devolep
-    elif selected == "Devolep":
+    #Developer
+    elif selected == "Developer":
         st.title(f"TIM STARLIGHT")
         st.write("**CLASS GALAXY  || COACH ANNISA RIZKI LILIANDARI || MSIB2 ORBIT FUTURE ACADEMY**")
 
@@ -804,12 +804,12 @@ def main():
         col3.write("**Anjanah Diah Andriani**")
         col3.write("**Universitas Widya Husada**")
         
-        col4.image(img_silvi, width=240)
+        col4.image(img_silvi, width=216)
         col4.write("**Silvia Maysiska Saragih**")
         col4.write("**Universitas Widya Husada**")
         
         col5.image(img_elda, width=216)
-        col5.write("**Elda Florenti Ginting**")
+        col5.write("**Eldaa Florenti Ginting**")
         col5.write("**Universitas Widya Husada**")
         
         st.snow()
