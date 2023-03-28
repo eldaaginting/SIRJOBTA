@@ -792,23 +792,23 @@ def main():
         img_silvi  = Image.open("data/silvi.png")
         img_elda  = Image.open("data/elda.png")
         
-        col1.image(img_likun,width=195)
+        col1.image(img_likun,width=200)
         col1.write("**Sholikun**")
         col1.write("**Universitas Widya Husada**")
         
-        col2.image(img_Justin, width=188)
+        col2.image(img_Justin, width=194)
         col2.write("**Justine**")
         col2.write("**Universitas Mikroskil**")
         
-        col3.image(img_anjana, width=211)
+        col3.image(img_anjana, width=216)
         col3.write("**Anjanah Diah Andriani**")
         col3.write("**Universitas Widya Husada**")
         
-        col4.image(img_silvi, width=235)
+        col4.image(img_silvi, width=240)
         col4.write("**Silvia Maysiska Saragih**")
         col4.write("**Universitas Widya Husada**")
         
-        col5.image(img_eldaa, width=195)
+        col5.image(img_eldaa, width=200)
         col5.write("**Eldaa Florenti Ginting**")
         col5.write("**Universitas Widya Husada**")
         
