@@ -819,11 +819,11 @@ def main():
         col3.write("**Anjanah Diah Andriani**")
         col3.write("**Universitas Widya Husada**")
         
-        col4.image(img_silvi, width=240)
+        col4.image(img_silvi, width=230)
         col4.write("**Silvia Maysiska Saragih**")
         col4.write("**Universitas Widya Husada**")
         
-        col5.image(img_elda, width=200)
+        col5.image(img_elda, width=216)
         col5.write("**Eldaa Florenti Ginting**")
         col5.write("**Universitas Widya Husada**")
         
