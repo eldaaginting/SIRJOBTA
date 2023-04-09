@@ -1,2 +1,0 @@
-# Sirjobta
-Sirjobta
