@@ -1,6 +1,6 @@
 pdfplumber
 matplotlib
-streamlit== 1.10.0
+streamlit== 1.20.0
 seaborn
 sklearn
 plotly
